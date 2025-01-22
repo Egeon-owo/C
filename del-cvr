@@ -1,0 +1,19 @@
+/* 隐藏原图标 */
+.layout__left .the-logo img, .layout__left .the-logo svg:nth-child(1) {
+    visibility: hidden;
+}
+
+/* 隐藏图标旁文字 有需要则取消以下注释 得自行P图*/
+/* .layout__left .the-logo img, .layout__left .the-logo svg:nth-child(2) {
+    visibility: hidden;
+} */
+
+/* 使用背景图片替换原图标（图片也包含旁边文字，默认不替换文字） */
+.layout__left .the-logo img, .layout__left .the-logo div {
+    background: url(https://cdn.jsdelivr.net/gh/MTChaoyi/Files/img/clash-verge.png) no-repeat;
+    background-size: cover;
+}
+#删除更新
+.the-newbtn {
+    display: none !important;
+}
