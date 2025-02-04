@@ -2,4 +2,4 @@ payload:
   - DOMAIN,pub1.emby.wtf
   - DOMAIN,pub2.emby.wtf
   - DOMAIN,pub3.emby.wtf
-  - IP-CIDR,45.196.236.214/32
+  - IP-CIDR,45.196.236.214/32,no-resolve
