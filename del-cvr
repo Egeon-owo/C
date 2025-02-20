@@ -17,3 +17,27 @@
 .the-newbtn {
     display: none !important;
 }
+
+
+文字居中
+
+
+/* 隐藏原图标 */
+.layout__left .the-logo img, 
+.layout__left .the-logo svg:nth-child(1) {
+    visibility: hidden;
+}
+
+/* 显示并居中图标旁文字 */
+.layout__left .the-logo {
+    display: flex;               /* 启用 flex 布局 */
+    justify-content: center;     /* 水平居中 */
+    align-items: center;         /* 垂直居中 */
+    width: 100%;                 /* 确保容器占满宽度 */
+    position: relative;          /* 为绝对定位提供基准 */
+}
+/* 针对文字元素的优化 */
+.layout__left .the-logo svg:nth-child(2) {
+    visibility: visible !important; /* 强制显示文字 */
+    margin-left: -45px;           /* 微调位置 (根据实际情况调整) */
+}
