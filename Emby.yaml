@@ -1,5 +1,5 @@
 payload:
-  - PROCESS-NAME,electron.exe
   - DOMAIN,pub1.emby.wtf
   - DOMAIN,pub2.emby.wtf
   - DOMAIN,pub3.emby.wtf
+  - DOMAIN,gm.yezi.my
